@@ -1,9 +1,12 @@
+ul { padding: 0 }
 body {
   text-align: center;
   font-family: Helvetica;
 }
 .maintitle {
   background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
+  background-size: 1900 px 1400px;
 }
 h1 {
   font-size: 70px;
@@ -12,6 +15,10 @@ h1 {
 }
 .topnav {
   font-size: 18px;
+  color: White;
+}
+.topnav ul {
+  list-style-type: none;
   color: White;
 }
 h2 {
@@ -37,4 +44,5 @@ p {
   font-size: 11;
   color: White;
   background-color: dimgray;
+  text-align: left;
 }
